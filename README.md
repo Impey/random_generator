@@ -10,7 +10,7 @@ This application is a baseline random genrator that can be plugged into an api t
 3. open the project in the code editor
 
 #How to install the gems 
-* when in the applications directory in terminal run "bundle install" to install all the neded gems from the gemfile
+* when in the applications directory in terminal run "bundle install" to install all the needed gems from the gemfile
 
 #How to use 
 1. require_relative Generator in order to add the random generator to the project as follows 
