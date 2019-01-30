@@ -4,12 +4,13 @@ require 'spec_helper'
 describe Generator do 
   context 'Unit testing for random generator'
   before(:all) do
-    @postcode_array = Generator.new.postcodes.random_array(rand(2..10))
+    @rand = rand(2..10)
+    @postcode_array = Generator.new.postcodes.random_array(@rand)
     end
 
   
     it 'should return no more then 10 values' do
-     expect(@postcode_array.length).to be <= 10
+     expect(@postcode_array.length).to eq @rand
     end
 
     it 'Should return an array' do 

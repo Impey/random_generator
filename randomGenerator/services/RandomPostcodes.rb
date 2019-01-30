@@ -22,8 +22,7 @@ end
 
 end
 
-test = RandomPostcodes.new
- p test.random_array(rand(2..10))
+
 
 
  

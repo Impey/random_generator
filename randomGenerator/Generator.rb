@@ -6,8 +6,4 @@ class Generator
   def postcodes
     RandomPostcodes.new
   end
-
-  
-  
-
 end
